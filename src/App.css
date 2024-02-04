@@ -1,0 +1,164 @@
+:root {
+  --main-green: #90a955;
+  --dark-green: #4A754E;
+  --light-tan: #F9F7F0;
+  --light-grey: #b1acac;
+  --light-green: #C0E8C0;
+}
+
+header {
+  background-color: var(--dark-green);
+  color: #FFEEF4;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.login-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--light-tan);
+}
+
+.login-card {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 550px;
+  text-align: center;
+}
+
+nav {
+  background-color: var(--dark-green);
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav a {
+  color: #FFEEF4;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: var(--light-tan);
+}
+
+.login-card form {
+  margin-top: 20px;
+}
+
+.form-item {
+  margin-bottom: 15px;
+}
+
+.form-item label {
+  color: var(--dark-green);
+}
+
+.form-item input,
+.form-item textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid var(--light-tan);
+  border-radius: 4px;
+}
+
+.submit-btn {
+  background-color: var(--dark-green);
+  color: #FFEEF4;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.login-card-footer {
+  margin-top: 20px;
+  color: var(--dark-green);
+}
+
+.login-card-footer a {
+  color: var(--dark-green);
+  text-decoration: none;
+}
+
+.center-container,
+.container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.highlighted-section,
+.why-choose {
+  background-color: rgba(144, 169, 85, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  color: #4A754E;
+  margin-bottom: 20px;
+}
+
+.reservation-form {
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.reservation-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reservation-form .time-slot,
+.reservation-form .submit-btn {
+  margin-top: 15px;
+}
+
+.why-choose h3,
+.why-choose li,
+.unavailable {
+  color: var(--dark-green);
+}
+
+.why-choose ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.welcome-text,
+.login-text {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.welcome-text a,
+.login-text a {
+  color: var(--main-green);
+  font-weight: bold;
+}
+
+.welcome-text a:hover,
+.login-text a:hover {
+  color: var(--dark-green);
+}
+
+.current-page {
+  color: var(--light-green);
+}
+
+.select option[disabled] {
+  color: #808080;
+  text-decoration: line-through;
+}
